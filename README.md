@@ -4,7 +4,7 @@ Hi! This page represents my learning process at **Code Fellows**! There are main
 *I wish good luck to others and myself on this jorney!*
 
 ## Code 201 - Foundations of Software Development
-[-Class 01](class-01)
+[-Class 01](class-01.md)
 
 
 ## Code 301 - Intermediate Software Development
