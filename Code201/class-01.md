@@ -24,4 +24,9 @@ When such elements are found, the client sends its request back to the server to
   
   
 **-  What is a Variable and why are they important in JavaScript?**
+  Variable is an entry point and a dynamical placeholder for information, that's been captured my computer memory. Without varibales, we'd have no infomration to manipulate.
+
+  
+  **-What is an HTML attribute?**
+  Attributes are special marks that don't appear visually, but they refer those marked blocks of information to an element that will alter specified properties of said blocks. 
   
