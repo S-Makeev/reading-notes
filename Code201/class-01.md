@@ -99,4 +99,8 @@ When such elements are found, the client sends its request back to the server to
   
   Refer to: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#how_do_you_add_javascript_to_your_page
   
-  <hr/>
+<hr/>
+
+ ## Things I want to know more about
+  
+  I'd like to know more about TCP protocols and information flow
