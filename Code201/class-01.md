@@ -78,26 +78,26 @@ When such elements are found, the client sends its request back to the server to
   
 **- What are the benefits of using semantic tags in our HTML?**
  
-  <ul>
+<ul>
 <li> Search engines will consider its contents as important keywords to influence the page's search rankings (see SEO)
     
 <li>Screen readers can use it as a signpost to help visually impaired users navigate a page
 <li>Finding blocks of meaningful code is significantly easier than searching through endless divs with or without semantic or namespaced classes
 <li>Suggests to the developer the type of data that will be populated 
 <li>Semantic naming mirrors proper custom element/component naming.
- <ul/>
+<ul/>
   
- **Source**:https://developer.mozilla.org/en-US/docs/Glossary/Semantics/
+**Source**:https://developer.mozilla.org/en-US/docs/Glossary/Semantics
   
   
 **- Describe 2 things that require JavaScript in the Browser?**
-  
-  Both HTML and CSS depend upon JavaScript to make an interactive webpage, so that it can be dynamically modified/accessed by a user.
+   
+Both HTML and CSS depend upon JavaScript to make an interactive webpage, so that it can be dynamically modified/accessed by a user.
   
   
 **- How can you add JavaScript to an HTML document?**
   
-  Refer to: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#how_do_you_add_javascript_to_your_page
+Refer to: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#how_do_you_add_javascript_to_your_page
   
 <hr/>
 
