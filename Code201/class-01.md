@@ -11,7 +11,7 @@ When we access a specific address from a browser, HTTP commands to open a TCP ch
 **- Describe how HTML, CSS, and JS files are “parsed” in the browser.**
 
   Browser parses HTML first, where it looks for any elements (<link>) that point to external CSS and (<script>) JS elements.
-When such elements are found, the client sends its request back to the server to retrieve <link> and <script> elements and    then parses them. Then, from the information that was parsed - client creates an outlay for HTML, CSS and JS content, then    compiles and executes JS. Finally, the client builds the DOM (Document Object Model) and applies styles from CSSOM (CSS        Object Model) and executes JS. At this point - the visual representation of a page is applied with its functionality and      content.   
+When such elements are found, the client sends its request back to the server to retrieve <link> and <script> elements and    then parses them. Then, from the information that was parsed - client creates an outlay for HTML, CSS and JS content, then    compiles and executes JS. Finally, the client builds the DOM (Document Object Model) and applies styles from CSSOM (CSS Object Model) and executes JS. At this point - the visual representation of a page is applied with its functionality and content.   
   
   
 **- How can you find images to add to a Website?**
@@ -61,5 +61,42 @@ When such elements are found, the client sends its request back to the server to
   
   
   
+**- What is the first step to designing a Website?**
+  
+  To do the project ideation. (What do I want to accomplish, how a website will help reach this goal, what's needed to reach the goal).
   
   
+**-  What is the most important question to answer when designing a Website?**
+  
+  What do I want to accomplish.
+  
+  
+**-  Why should you use an "h1" element over a "span" element to display a top level heading?**
+  
+  We should use it thus it carries semantic meaning, while "span" only makes it look like top heading and has no value for SEO.
+  
+  
+**- What are the benefits of using semantic tags in our HTML?**
+ 
+  <ul>
+<li> Search engines will consider its contents as important keywords to influence the page's search rankings (see SEO)
+    
+<li>Screen readers can use it as a signpost to help visually impaired users navigate a page
+<li>Finding blocks of meaningful code is significantly easier than searching through endless divs with or without semantic or namespaced classes
+<li>Suggests to the developer the type of data that will be populated 
+<li>Semantic naming mirrors proper custom element/component naming.
+ <ul/>
+  
+ **Source**:https://developer.mozilla.org/en-US/docs/Glossary/Semantics/
+  
+  
+**- Describe 2 things that require JavaScript in the Browser?**
+  
+  Both HTML and CSS depend upon JavaScript to make an interactive webpage, so that it can be dynamically modified/accessed by a user.
+  
+  
+**- How can you add JavaScript to an HTML document?**
+  
+  Refer to: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#how_do_you_add_javascript_to_your_page
+  
+  <hr/>
