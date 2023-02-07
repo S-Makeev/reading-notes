@@ -45,4 +45,30 @@ They have the highest priority and therefore it would be impossible for us to ma
 
 ```
 h2 - selector, {color: black; padding:5x} - CSS declaration and 'color:', 'padding' are properties.  
+
+**- What is the use of an 'else if'**
+  Used between 'else' and 'if' for multiple variants
   
+**- List 3 different types of comparison operators.**
+
+  ```
+  === and !== — test if one value is identical to, or not identical to, another.
+< and > — test if one value is less than or greater than another.
+<= and >= — test if one value is less than or equal to, or greater than or equal to, another.
+ ```
+  source(https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
+ 
+**- What is the difference between the logical operator && and ||**
+ 
+'&&' - and; both of the checked conditions must be 'true' to return 'true'
+'||' - or; one of the checked conditions must be 'true' to return 'true'
+
+ 
+ **- Bookmarks**
+ 
+ https://cbea.ms/git-commit/ - list of important commands and rules of navigating and creating git commits.
+ 
+ 
+## Things I want to know more about
+ 
+ From this reading assignment, I want to dive deeper into git commands and know how to utilize many of them in my day to day coding.
