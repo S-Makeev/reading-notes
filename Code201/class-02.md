@@ -25,14 +25,24 @@ We need to add 'title' attribute, where the full word is going to be mentioned.
 
 There are three ways of how we can apply CSS.
 
-
-
  <li> External stylesheet (separate file)
  <li> Internal stylesheet (inside the HTML document) 
- <li> Inline stylesheet (style attribute within an element)</li>
+ <li> Inline stylesheet (style attribute within an element)
 
 
 **- Why should we avoid using inline styles?**
 
+
 They have the highest priority and therefore it would be impossible for us to make any changes to it from outside.
    
+**- What is representing the selector, CSS declarations, properties?** 
+  
+```
+ h2 {
+     color: black;
+     padding: 5px;
+   }
+
+```
+h2 - selector, {color: black; padding:5x} - CSS declaration and 'color:', 'padding' are properties.  
+  
