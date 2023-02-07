@@ -25,11 +25,14 @@ We need to add 'title' attribute, where the full word is going to be mentioned.
 
 There are three ways of how we can apply CSS.
 
-<ul>
+
+
  <li> External stylesheet (separate file)
  <li> Internal stylesheet (inside the HTML document) 
- <li> Inline stylesheet (style attribute within an element) 
- <ul/>
-   
-**- 
+ <li> Inline stylesheet (style attribute within an element)</li>
+
+
+**- Why should we avoid using inline styles?**
+
+They have the highest priority and therefore it would be impossible for us to make any changes to it from outside.
    
