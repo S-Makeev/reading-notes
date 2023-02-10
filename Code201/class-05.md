@@ -40,3 +40,7 @@ font-size adjusts font size, font-weight defines texts thickness, font-style spe
 
 **-Describe two ways you could add spacing around the characters displayed in an h1 element.**
 We could use text-aligh property or margin.
+
+# Things I want to know more about
+
+I'd like to know if there's a list of most commonly used patters of styling for each most commonly used element. 
