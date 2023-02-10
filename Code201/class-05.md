@@ -26,5 +26,17 @@ PNG would be thee most preferrable type, as it provides more precise reproductio
 
 Foreground refers to coloring of a text or an element of the page, while background refers to colors behind the elements in the front. 
 
+**-Your friend asks you to give his colorless blog website a touch up. How would you use color to give his blog some character?**
 
+First I'd identify what his blog would be about, so I can match it with proper color scheme, then, I'd pick colors for background and foreground that would be in sync and apply those to elements on the website.
 
+**-What should you consider when choosing fonts for an HTML document?**
+
+We should always consider acessibility and readability. Some font families and fonts might not be supported in different browsers. 
+
+**-What do font-size, font-weight, and font-style do to HTML text elements?**
+
+font-size adjusts font size, font-weight defines texts thickness, font-style specifies what style to apply to a text.
+
+**-Describe two ways you could add spacing around the characters displayed in an h1 element.**
+We could use text-aligh property or margin.
