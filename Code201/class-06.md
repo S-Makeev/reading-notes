@@ -6,4 +6,4 @@ An object is a kind of entity, that has certain parameters and characteristics. 
 
 **-What are some advantages to creating object literals?**
 
-
+The main advantage is the ability to wrap some logic or multiple properties into one object, which makes code much more flexible, maintainable and helps avoiding "spaghetti code".
