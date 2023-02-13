@@ -40,3 +40,13 @@ const dog = {
 
 **-Briefly describe the relationship between the DOM and JavaScript.**
 
+DOM is a programming interface that helps JavaScript map onto objects in HTML, that allows JS to manipulate said objects.
+
+**-Understanding the problem domain is the hardest part of programming**
+
+The topic reviews commom mistakes and obstacles that prevent programmers from becoming better problem solvers or at least makes it much difficult to solve problems.
+Key takaways are: most of the time should be spent reading the problem multiple times, solving problem manually and optimizing manual steps. The rest of the time should be spent on pseudo-code, then replacing it with real code and optimizing the result.
+
+**-What’s the Difference Between Primitive Values and Object References in JavaScript?**
+
+Value types are saved in a different place in memory, so technically we are pointing to those "slots" when addressing value types, but not replacing them. While value types stored in a different place, where the "first-in-first-out" principle works and if we are assigning anything to a stored value type, we are replacing its properties.  
