@@ -21,7 +21,7 @@ If an object property name is held in a variable,then we must use bracket notati
 **-Evaluate the code below. What does the term `this` refer to and what is the advantage to using `this`?**
 
 `This` keyword referes to the current object the code is being written inside, so in this code, `this` refers to name and age properties. 
-The main advantage is 
+The main advantage is that when we have multiple object literals, it helps to use the same method on every created object.
 
 
 ```
