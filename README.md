@@ -20,6 +20,15 @@ Hi! This page represents my learning process at **Code Fellows**! There are main
 
 [Class 07](Code201/class-07.md)
 
+[Class 08](Code201/class-08.md)
+
+[Class 09](Code201/class-09.md)
+
+[Class 10](Code201/class-10.md)
+
+[Class 11](Code201/class-11.md)
+
+
 ## Code 301 - Intermediate Software Development
 ## Code 401 - Advanced Software Developmen
 
