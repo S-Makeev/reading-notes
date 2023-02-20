@@ -19,12 +19,24 @@ In order to make it to the other side of the river where the port was, audio and
 
 **-How does Grid layout differ from Flex?**
 
+Flex container can wrap and move down independently of the row above, while grid while wrapping, will mirror behaviour of the elements above. Flex is one dimensional, while Grid is two dimensional. Grid is mostly defined on the parent element, while in flexbox most of the layout happens on the parent element. 
+
+
 **-Grid container, grid item, and grid line are a few important terms to understand when using Grid. Please describe these terms in a few sentences.**
+
+Grid container - The element on which the grid is applied and it's a parent of all grid items. 
+Grid item - the children of the grid container.We'll find the item elements, but not sub-items.
+Grid line - lines that divide the grid vertically or horizontally making up the structure of the grid. 
 
 **-Besides making a site visually appealing across different screen sizes, why should developers make images responsive?**
 
+So that we can save the bandwidth for our users by offering them variants of file sizes that will be used, depending on the device they have.
+
 **-Define the following `<img>` attributes srcset and sizes. Write an example of how they are used.**
+
+srcset provides a browser with a list of images and their parameters. sizes - defines certain conditions what image size will be used based of the current conditions. 
 
 **-How is srcset more helpful for responsive images than CSS or JavaScript?**
 
+> When the browser starts to load a page, it starts to download (preload) any images before the main parser has started to load and interpret the page's CSS and JavaScript. That mechanism is useful in general for reducing page load times, but it is not helpful for responsive images — hence the need to implement solutions like srcset
 
