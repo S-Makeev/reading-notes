@@ -15,9 +15,9 @@ Chart Js is a library that allows effective and simple application of data visua
 **-List 3 different Chart types you can create using Chart.js.**
 We can create matrix, treemap, financial charts like candlestick etc. 
 
-**-**
-**-**
-**-**
-**-**
-**-**
-**-**
+**-What are some advantages to displaying data via a chart over a table?**
+For some types of data it's rather difficult to create sufficient and clear visual representration in a table, without heavy reliance on numbers.
+
+**-How could Chart.js aid your previously created applications visually?**
+I'd say that since I haven't used charts alot, the only viable application for Chart.js for my previous projects would be making some charts visually appealing. 
+
