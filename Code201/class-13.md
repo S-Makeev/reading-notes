@@ -7,8 +7,6 @@ The HTTP is stateless, therefore if an application is closed, all inteface data 
 We should never store any security-related or sensitive information about user. 
 
 **-Local storage can store what type of data? How would you convert it to that type before storing?**
-It can only work with string data type, so in order to 
-
-**-The Past, Present, and Future of Local Storage for Web Applications**
+It can only work with string data type, so in order to be able to store data locally, we need to use methods JSON.stringify() and JSON.parse().
 
 
