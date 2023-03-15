@@ -35,7 +35,21 @@ To add a new item, we can use [...oldArr, ...newItem];
 To combine two objects, we can simply: [...obj1, ... obj2];
 
 
+- In the video, what is the first step that the developer does to pass functions between components?
 
+He created a reference inside the component object.
+
+- In your own words, what does the increment function do?
+
+Loops through an array of people and checks if the  person === to the name of person that was clicked, if it does, it increments the counter for that person.
+
+- How can you pass a method from a parent component into a child component?
+
+We can pass it as a prop to the child component.
+
+- How does the child component invoke a method that was passed to it from a parent component?
+
+The child component can use the prop in which the method was passed to.
 
 
 
