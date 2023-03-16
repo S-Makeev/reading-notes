@@ -14,3 +14,11 @@ we can use: `handleChange(event) {
     this.setState({value: event.target.value});
   }`
   event.target.value specifically, so that we are tracking the updated input. 
+  
+- Why would we use a ternary operator?
+
+We should use it as a shortcut for bool checks for two conditions.
+
+- Rewrite the following statement using a ternary statement:
+
+`x === y ? console.log(true) : console.log(false);`
