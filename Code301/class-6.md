@@ -4,11 +4,11 @@
 
 It's a JS runtime environment that uses V8 engine. 
 
--In your own words, what is Chrome’s V8 JavaScript Engine?
+- In your own words, what is Chrome’s V8 JavaScript Engine?
 
 It's a translator for JS. It translates JS from human readable code into code readable by machine. 
 
--What does it mean that node is a JavaScript runtime?
+- What does it mean that node is a JavaScript runtime?
 
 it means that node serves as an area where JS code is going to be executed. 
 
