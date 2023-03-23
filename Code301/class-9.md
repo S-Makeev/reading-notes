@@ -20,3 +20,25 @@ A function can be called pure if it returns the same output given the same input
   When data is immutable, its state cannot change after it’s created. If you want to change an immutable object, you can’t. Instead, you create a new object with the new value.
   
   `pure functions + immutable data = referential transparency`
+
+-What is a module?
+
+
+Separate js file to store code with its own functionality
+
+- What does the word ‘require’ do?
+
+Reads a JavaScript file, executes it, and then proceeds to return the export object
+
+- How do we bring another module into the file the we are working in?
+
+We need to import that module, therefore we'll be using `require` keyword.
+
+- What do we have to do to make a module available?
+
+We neeed to specity through `module.exports =` what part of the module we need to have available.
+
+
+
+
+
