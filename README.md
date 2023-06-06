@@ -15,6 +15,8 @@ Hi! This page represents my learning process at **Code Fellows**! There are main
 
 ## Code 401 - Advanced Software Developmen
 
+[Main rep](https://github.com/S-Makeev/reading-notes/tree/main/Code401)
+
 [SQL](Code401/SQL.md)
 
 [^note]: "to the stars".
