@@ -15,9 +15,7 @@
 **Select query with constraints**
 
     SELECT column, another_column, …
-
     FROM mytable
-
     WHERE condition
     AND/OR another_condition   
     AND/OR …;
@@ -28,13 +26,9 @@
  **Select query with limited rows**
  
     SELECT column, another_column, …
-
     FROM mytable
-
     WHERE condition(s)
-
     ORDER BY column ASC/DESC
-
     LIMIT num_limit OFFSET num_offset;
 
 * It's important to mention that SELECT **DISTINCT** is used to eliminate dublicate column values;
@@ -43,23 +37,53 @@
 
 **Select query with INNER JOIN on multiple tables**
 
-SELECT column, another_table_column, …
-
+    SELECT column, another_table_column, …
     FROM mytable
-
     INNER JOIN another_table 
-
     ON mytable.id = another_table.id
-    
     WHERE condition(s)
-
     ORDER BY column, … ASC/DESC
-
     LIMIT num_limit OFFSET num_offset;
 
 ## Inserting rows
 
+**Insert statement with specific columns**
+     
+     INSERT INTO mytable
+     (column, another_column, …)
+     VALUES (value_or_expr, another_value_or_expr, …),
+     (value_or_expr_2, another_value_or_expr_2, …); 
 
+**Insert statement with values for all columns**
+
+      INSERT INTO mytable
+      VALUES (value_or_expr, another_value_or_expr, …),
+      (value_or_expr_2, another_value_or_expr_2, …);
+      
+##  Updating rows
+
+**Update statement with values**
+
+     UPDATE mytable
+     SET column = value_or_expr, 
+     other_column = another_value_or_expr, 
+     …
+     WHERE condition;
+
+## Deleting rows
+
+     DELETE FROM mytable
+     WHERE condition;
+     
+## Creating tables     
+
+ **Create table statement w/ optional table constraint and default** 
+ 
+     CREATE TABLE IF NOT EXISTS mytable (
+     column DataType TableConstraint DEFAULT default_value,
+     another_column DataType TableConstraint DEFAULT default_value);
+     
+     
 ![834e9d5d963dfa6c528e5d6e09851233](https://github.com/S-Makeev/reading-notes/assets/71305940/ccc0559e-519c-4175-ad88-081f9a4196ea)
 ![2cb5986a67e7446aaf1a4e05059e142a](https://github.com/S-Makeev/reading-notes/assets/71305940/91dfbaaf-a1c1-4df7-93dc-480c994afc0b)
 ![73827b269993152e7d66a8a73f05f876](https://github.com/S-Makeev/reading-notes/assets/71305940/817c1dc7-9250-405b-ad6c-4cb1dd173b0d)
