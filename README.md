@@ -6,7 +6,7 @@ Hi! This page represents my learning process at **Code Fellows**! There are main
 
 
 ## Code 201 - Foundations of Software Development
-[Main rep]([Code201/class-01.md](https://github.com/S-Makeev/reading-notes/tree/main/Code201))
+[Main rep](https://github.com/S-Makeev/reading-notes/tree/main/Code201)
 
 
 
