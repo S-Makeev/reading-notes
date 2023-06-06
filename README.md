@@ -9,11 +9,9 @@ Hi! This page represents my learning process at **Code Fellows**! There are main
 [Main rep](https://github.com/S-Makeev/reading-notes/tree/main/Code201)
 
 
-
-
 ## Code 301 - Intermediate Software Development
 
-[Class 01](Code301/class-01.md)
+[Main rep](https://github.com/S-Makeev/reading-notes/tree/main/Code301)
 
 ## Code 401 - Advanced Software Developmen
 
