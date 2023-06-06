@@ -4,13 +4,13 @@
 * **Relational Database** - represent a collection of related 2D tables.
 * **Database normalization 1NF, 2NF, 3NF... (Normal Form)** : https://www.studytonight.com/dbms/database-normalization.php
 
-## SQL Lesson 1: SELECT
+##  SELECT
 
 **Select query for a specific columns**
 
      SELECT column, another_column, …
      FROM mytable;
-## SQL Lesson 2: Queries with constraints (Pt. 1)
+##  Queries with constraints 
 
 **Select query with constraints**
 
@@ -22,20 +22,8 @@
     AND/OR another_condition   
     AND/OR …;
     
-## SQL Lesson 3: Queries with constraints (Pt. 2)
-
-**Select query with constraints**
-
-    SELECT column, another_column, …
-
-    FROM mytable
-
-    WHERE condition
-
-     AND/OR another_condition   
-     AND/OR …;
  
- ## SQL Lesson 4: Filtering and sorting Query results
+ ## Filtering and sorting Query results
  
  **Select query with limited rows**
  
@@ -51,7 +39,7 @@
 
 * It's important to mention that SELECT **DISTINCT** is used to eliminate dublicate column values;
 
-## SQL Lesson 6: Multi-table queries with JOINs
+## Multi-table queries with JOINs
 
 **Select query with INNER JOIN on multiple tables**
 
@@ -68,6 +56,9 @@ SELECT column, another_table_column, …
     ORDER BY column, … ASC/DESC
 
     LIMIT num_limit OFFSET num_offset;
+
+## Inserting rows
+
 
 ![834e9d5d963dfa6c528e5d6e09851233](https://github.com/S-Makeev/reading-notes/assets/71305940/ccc0559e-519c-4175-ad88-081f9a4196ea)
 ![2cb5986a67e7446aaf1a4e05059e142a](https://github.com/S-Makeev/reading-notes/assets/71305940/91dfbaaf-a1c1-4df7-93dc-480c994afc0b)
