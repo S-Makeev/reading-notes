@@ -83,7 +83,20 @@
      column DataType TableConstraint DEFAULT default_value,
      another_column DataType TableConstraint DEFAULT default_value);
      
+##  Altering tables
+
+**Altering table to ADD, REMOVE, RENAME new column(s)**
+
+     ALTER TABLE mytable
+     ADD TO column DataType OptionalTableConstraint 
+     DEFAULT default_value;
      
+     ALTER TABLE mytable
+     DROP column_to_be_deleted;
+    
+     ALTER TABLE mytable
+     RENAME TO new_table_name;
+    
 ![834e9d5d963dfa6c528e5d6e09851233](https://github.com/S-Makeev/reading-notes/assets/71305940/ccc0559e-519c-4175-ad88-081f9a4196ea)
 ![2cb5986a67e7446aaf1a4e05059e142a](https://github.com/S-Makeev/reading-notes/assets/71305940/91dfbaaf-a1c1-4df7-93dc-480c994afc0b)
 ![73827b269993152e7d66a8a73f05f876](https://github.com/S-Makeev/reading-notes/assets/71305940/817c1dc7-9250-405b-ad6c-4cb1dd173b0d)
