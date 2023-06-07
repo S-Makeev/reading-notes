@@ -21,7 +21,8 @@
 * **.. (dotdot)** - This is a reference to the parent directory.
 * **cd [location]** - change directory.
 * **file [path]** - check the file's type.
-* 
+* **man <command to look up>** - calls manual for a specified command.
+* **mkdir [options] <Directory>** - creates a directory. **-p** option creates parent directories. *-v* option announces each step of directory creation. *-pv* is possible.
 
 
 ### Absolute and Relative Paths
