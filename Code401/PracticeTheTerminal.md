@@ -12,6 +12,10 @@
 * Linux is case sensitive.   
 * Spaces in directory names must be avoided to prevent confusion. 
 * There's a command line edditor - vi. If needed: vi hello.js
+* Linux permissions dictate 3 things you may do with a file, read, write and execute. **r - Read**, **w - Write**, **x - Execute**.
+* There are filters in Linux system. It's is a program that accepts textual data and then transforms it in a particular way. 
+
+
 ### **Important commands:**
 
 * **pwd** - (Print working directory), 
@@ -26,8 +30,11 @@
 * **rmdir [options] <Directory>** - remove directory. For **non-empty** directory use **-r** option.
 * **touch [options] <filename>** - create a blank file.   
 * **cp [options] <source> <destination>** - copy a file or directory.  
-
-
+* **ls -l [path]** - view permissions
+* **chmod [permissions] [path]** - Change permissions on a file or directory.   
+* **head [-number of lines to print] [path]** - prints a specified number of first lines from a file. 
+* **tail [-number of lines to print] [path]** - opposite to Head.
+ 
 ### Absolute and Relative Paths
 * Absolute paths specify a location (file or directory) in relation to the root directory. You can identify them easily as they always begin with a forward slash ( / )
 * Relative paths specify a location (file or directory) in relation to where we currently are in the system. They will not begin with a slash.
