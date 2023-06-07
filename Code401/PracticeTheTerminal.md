@@ -11,7 +11,7 @@
 * Linux is an Extensionless System. Linux system ignores the extension and looks inside the file to determine what type of file it is.
 * Linux is case sensitive.   
 * Spaces in directory names must be avoided to prevent confusion. 
-
+* There's a command line edditor - vi. If needed: vi hello.js
 ### **Important commands:**
 
 * **pwd** - (Print working directory), 
@@ -23,6 +23,9 @@
 * **file [path]** - check the file's type.
 * **man <command to look up>** - calls manual for a specified command.
 * **mkdir [options] <Directory>** - creates a directory. **-p** option creates parent directories. *-v* option announces each step of directory creation. *-pv* is possible.
+* **rmdir [options] <Directory>** - remove directory. For **non-empty** directory use **-r** option.
+* **touch [options] <filename>** - create a blank file.   
+* **cp [options] <source> <destination>** - copy a file or directory.  
 
 
 ### Absolute and Relative Paths
