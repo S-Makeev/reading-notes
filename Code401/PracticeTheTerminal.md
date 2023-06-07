@@ -35,6 +35,11 @@ Ways of redirection:
     2> Redirect error messages.
      
     |  Send the output from one program as input to another program.
+    
+    
+* There's a command that kills a crashed process. It's: **kill [signal] <PID>** where PID = process id. And we also can view background processes or "jobs" and move them 
+    
+* There's alot we can do in terms of writing srcipts in shell. It helps with automation of some of the most commonly occuring processes. 
 
 ### **Important commands:**
 
