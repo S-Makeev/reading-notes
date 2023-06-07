@@ -12,6 +12,7 @@
 * Linux is case sensitive.   
 * Spaces in directory names must be avoided to prevent confusion. 
 * There's a command line edditor - vi. If needed: vi hello.js
+* We have access to manual that provides detailed explanation for each requested command. 
 * Linux permissions dictate 3 things you may do with a file, read, write and execute. **r - Read**, **w - Write**, **x - Execute**.
 * There are filters in Linux system. It's is a program that accepts textual data and then transforms it in a particular way. 
 * We are able to redirect information through Piping and Redirection. Also, there are 3 streams of information: 
