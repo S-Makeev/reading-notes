@@ -14,7 +14,27 @@
 * There's a command line edditor - vi. If needed: vi hello.js
 * Linux permissions dictate 3 things you may do with a file, read, write and execute. **r - Read**, **w - Write**, **x - Execute**.
 * There are filters in Linux system. It's is a program that accepts textual data and then transforms it in a particular way. 
+* We are able to redirect information through Piping and Redirection. Also, there are 3 streams of information: 
 
+1) STDIN (0) - Standard input (data fed into the program)
+
+2) STDOUT (1) - Standard output (data printed by the program, defaults to the terminal)
+
+3) STDERR (2) - Standard error (for error messages, also defaults to the terminal)
+
+* We can also redirect TO a file and FROM a file. 
+
+Ways of redirection: 
+
+    >  Save output to a file.
+   
+    >> Append output to a file.
+     
+    <  Read input from a file.   
+     
+    2> Redirect error messages.
+     
+    |  Send the output from one program as input to another program.
 
 ### **Important commands:**
 
@@ -34,6 +54,7 @@
 * **chmod [permissions] [path]** - Change permissions on a file or directory.   
 * **head [-number of lines to print] [path]** - prints a specified number of first lines from a file. 
 * **tail [-number of lines to print] [path]** - opposite to Head.
+ * **cat [path]** - show the outpit of a specified file.
  
 ### Absolute and Relative Paths
 * Absolute paths specify a location (file or directory) in relation to the root directory. You can identify them easily as they always begin with a forward slash ( / )
