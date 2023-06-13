@@ -1,8 +1,5 @@
 # Data Structures and Algorithms
 
-
-## Recursion
-
 [Recursion](https://www.youtube.com/watch?v=vPEJSJMg4jY&ab_channel=freeCodeCamp.org) Vid
 It's important to understand the use of recursion as it is diffrerent with each case. Sometimes it might be not the most efficient solution, but fast to implement and easier to understand. 
 
